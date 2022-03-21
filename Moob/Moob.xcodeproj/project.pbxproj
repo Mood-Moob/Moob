@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AAD7E94227E8486400AD1043 /* SigmarOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AAD7E94127E8486100AD1043 /* SigmarOne-Regular.ttf */; };
 		AAEA3F5C27E03AA400D49FC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEA3F5B27E03AA400D49FC4 /* AppDelegate.swift */; };
 		AAEA3F5E27E03AA400D49FC4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEA3F5D27E03AA400D49FC4 /* SceneDelegate.swift */; };
 		AAEA3F6027E03AA400D49FC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEA3F5F27E03AA400D49FC4 /* ViewController.swift */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AAD7E94127E8486100AD1043 /* SigmarOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SigmarOne-Regular.ttf"; sourceTree = "<group>"; };
 		AAEA3F5827E03AA400D49FC4 /* Moob.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moob.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAEA3F5B27E03AA400D49FC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAEA3F5D27E03AA400D49FC4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -35,6 +37,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AAD7E94027E8423500AD1043 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				AAD7E94127E8486100AD1043 /* SigmarOne-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		AAEA3F4F27E03AA400D49FC4 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +64,7 @@
 		AAEA3F5A27E03AA400D49FC4 /* Moob */ = {
 			isa = PBXGroup;
 			children = (
+				AAD7E94027E8423500AD1043 /* Fonts */,
 				AAEA3F5B27E03AA400D49FC4 /* AppDelegate.swift */,
 				AAEA3F5D27E03AA400D49FC4 /* SceneDelegate.swift */,
 				AAEA3F5F27E03AA400D49FC4 /* ViewController.swift */,
@@ -124,6 +135,7 @@
 			files = (
 				AAEA3F6827E03AA800D49FC4 /* LaunchScreen.storyboard in Resources */,
 				AAEA3F6527E03AA800D49FC4 /* Assets.xcassets in Resources */,
+				AAD7E94227E8486400AD1043 /* SigmarOne-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
