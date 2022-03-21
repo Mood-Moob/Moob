@@ -11,6 +11,7 @@
 		AAD7E95227E89E9200AD1043 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD7E95127E89E9200AD1043 /* ContentView.swift */; };
 		AAD7E95427E89E9400AD1043 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAD7E95327E89E9400AD1043 /* Assets.xcassets */; };
 		AAD7E95727E89E9400AD1043 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAD7E95627E89E9400AD1043 /* Preview Assets.xcassets */; };
+		AAD7E95F27E89EDB00AD1043 /* SigmarOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AAD7E95E27E89ED800AD1043 /* SigmarOne-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		AAD7E95127E89E9200AD1043 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AAD7E95327E89E9400AD1043 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AAD7E95627E89E9400AD1043 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AAD7E95E27E89ED800AD1043 /* SigmarOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SigmarOne-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		AAD7E94E27E89E9200AD1043 /* Moob */ = {
 			isa = PBXGroup;
 			children = (
+				AAD7E95D27E89EC700AD1043 /* Fonts */,
 				AAD7E94F27E89E9200AD1043 /* MoobApp.swift */,
 				AAD7E95127E89E9200AD1043 /* ContentView.swift */,
 				AAD7E95327E89E9400AD1043 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				AAD7E95627E89E9400AD1043 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AAD7E95D27E89EC700AD1043 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				AAD7E95E27E89ED800AD1043 /* SigmarOne-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +138,7 @@
 			files = (
 				AAD7E95727E89E9400AD1043 /* Preview Assets.xcassets in Resources */,
 				AAD7E95427E89E9400AD1043 /* Assets.xcassets in Resources */,
+				AAD7E95F27E89EDB00AD1043 /* SigmarOne-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
