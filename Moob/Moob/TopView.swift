@@ -23,7 +23,7 @@ struct TopView: View {
                 VStack(alignment: .leading){
                     Image("Moob_Logo")
                     Text("Choose one and try it.").font(.system(size: 20, weight: .thin, design: .default)).foregroundColor(Color(red: 125/255, green: 125/255, blue: 125/255))
-                }.padding().offset(x: 20, y: -20)
+                }.padding().offset(x: 20, y: -110)
                 Spacer()
             }
         }
