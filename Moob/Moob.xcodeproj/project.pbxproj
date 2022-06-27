@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA46AB352865EAED00CE0D07 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA46AB342865EAED00CE0D07 /* WebView.swift */; };
+		AA893CD0281662F200E393F4 /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA893CCF281662F200E393F4 /* TopView.swift */; };
+		AA893CD22816B91500E393F4 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA893CD12816B91500E393F4 /* MainView.swift */; };
+		AA893CD42816BBA600E393F4 /* ChooseMbtiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA893CD32816BBA600E393F4 /* ChooseMbtiView.swift */; };
+		AA893CD62816BBE600E393F4 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA893CD52816BBE600E393F4 /* MenuView.swift */; };
 		AAD7E95027E89E9200AD1043 /* MoobApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD7E94F27E89E9200AD1043 /* MoobApp.swift */; };
 		AAD7E95227E89E9200AD1043 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD7E95127E89E9200AD1043 /* ContentView.swift */; };
 		AAD7E95427E89E9400AD1043 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAD7E95327E89E9400AD1043 /* Assets.xcassets */; };
@@ -15,6 +20,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA46AB342865EAED00CE0D07 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		AA893CCF281662F200E393F4 /* TopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
+		AA893CD12816B91500E393F4 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		AA893CD32816BBA600E393F4 /* ChooseMbtiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseMbtiView.swift; sourceTree = "<group>"; };
+		AA893CD52816BBE600E393F4 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		AAD7E94C27E89E9200AD1043 /* Moob.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moob.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAD7E94F27E89E9200AD1043 /* MoobApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoobApp.swift; sourceTree = "<group>"; };
 		AAD7E95127E89E9200AD1043 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,6 +70,11 @@
 				AAD7E95127E89E9200AD1043 /* ContentView.swift */,
 				AAD7E95327E89E9400AD1043 /* Assets.xcassets */,
 				AAD7E95527E89E9400AD1043 /* Preview Content */,
+				AA893CCF281662F200E393F4 /* TopView.swift */,
+				AA893CD12816B91500E393F4 /* MainView.swift */,
+				AA893CD32816BBA600E393F4 /* ChooseMbtiView.swift */,
+				AA893CD52816BBE600E393F4 /* MenuView.swift */,
+				AA46AB342865EAED00CE0D07 /* WebView.swift */,
 			);
 			path = Moob;
 			sourceTree = "<group>";
@@ -152,7 +167,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAD7E95227E89E9200AD1043 /* ContentView.swift in Sources */,
+				AA893CD62816BBE600E393F4 /* MenuView.swift in Sources */,
+				AA893CD22816B91500E393F4 /* MainView.swift in Sources */,
+				AA893CD0281662F200E393F4 /* TopView.swift in Sources */,
 				AAD7E95027E89E9200AD1043 /* MoobApp.swift in Sources */,
+				AA893CD42816BBA600E393F4 /* ChooseMbtiView.swift in Sources */,
+				AA46AB352865EAED00CE0D07 /* WebView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
