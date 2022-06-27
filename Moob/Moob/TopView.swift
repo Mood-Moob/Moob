@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct TopView: View {
+    var descriptionText = ""
+    
     var body: some View {
         ZStack{
             VStack(alignment: .leading){
@@ -22,7 +24,7 @@ struct TopView: View {
                 }
                 VStack(alignment: .leading){
                     Image("Moob_Logo")
-                    Text("Choose one and try it.").font(.system(size: 20, weight: .thin, design: .default)).foregroundColor(Color(red: 125/255, green: 125/255, blue: 125/255))
+                    Text(descriptionText).font(.system(size: 20, weight: .thin, design: .default)).foregroundColor(Color(red: 125/255, green: 125/255, blue: 125/255))
                 }.padding().offset(x: 20, y: -110)
                 Spacer()
             }

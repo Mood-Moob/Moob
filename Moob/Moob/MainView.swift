@@ -11,7 +11,7 @@ struct MainView: View {
     var body: some View {
         NavigationView{
             VStack{
-                TopView()
+                TopView(descriptionText: "Choose one and try it.")
                 VStack{
                     NavigationLink(destination: ChooseMbtiView().navigationBarHidden(true)){
                         MenuView(descriptionText: "I know my MBTI", image: "Moob_KnowMyMBTI")
