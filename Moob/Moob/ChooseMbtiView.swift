@@ -17,10 +17,31 @@ struct ChooseMbtiView: View {
                         Image("Moob_Home")
                             .resizable()
                             .frame(width: 25, height: 25, alignment: .topTrailing)
-                            .offset(x: -20)
-                    }
+                            
+                    }.padding(22)
                 }
                 TopView(descriptionText: "Choose your MBTI.")
+                HStack(){
+                    Button(action:{
+                        print("Front")
+                    }){
+                        Image("Moob_Front")
+                            .resizable()
+                            .frame(width: 8, height: 17, alignment: .leading)
+                    }
+                    Spacer()
+                    Text("분석가형")
+                        .font(.system(size: 20, weight: .bold, design: .default))
+                        .foregroundColor(Color(red: 212/255, green: 214/255, blue: 255/255))
+                    Spacer()
+                    Button(action:{
+                        print("Back")
+                    }){
+                        Image("Moob_Back")
+                            .resizable()
+                            .frame(width: 8, height: 17, alignment: .leading)
+                    }
+                }.padding(37)
             }
         }
     }
