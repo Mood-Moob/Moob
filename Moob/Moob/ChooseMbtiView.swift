@@ -46,7 +46,7 @@ struct ChooseMbtiView: View {
                     Spacer()
                     TypeStackView(typeImage1: "Moob_INTJ", typeImage2: "Moob_INTP", typeImage3: "Moob_ENTJ", typeImage4: "Moob_ENTP", typeName1: "INTJ", typeName2: "INTP", typeName3: "ENTJ", typeName4: "ENTP", typeDetination1: ChooseMbtiView(), typeDetination2: ChooseMbtiView(), typeDetination3: ChooseMbtiView(), typeDetination4: ChooseMbtiView())
                     Spacer()
-                }.offset(x: 0, y: -120)
+                }.offset(x: 0, y: -130)
             }
         }
     }
