@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		AA46AB352865EAED00CE0D07 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA46AB342865EAED00CE0D07 /* WebView.swift */; };
+		AA572CAD286EB89D007E8E05 /* TypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA572CAC286EB89D007E8E05 /* TypeView.swift */; };
+		AA572CAF286EB98F007E8E05 /* TypeStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA572CAE286EB98F007E8E05 /* TypeStackView.swift */; };
+		AA572CB12871D6FD007E8E05 /* ResultCheckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA572CB02871D6FD007E8E05 /* ResultCheckView.swift */; };
 		AA893CD0281662F200E393F4 /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA893CCF281662F200E393F4 /* TopView.swift */; };
 		AA893CD22816B91500E393F4 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA893CD12816B91500E393F4 /* MainView.swift */; };
 		AA893CD42816BBA600E393F4 /* ChooseMbtiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA893CD32816BBA600E393F4 /* ChooseMbtiView.swift */; };
@@ -21,6 +24,9 @@
 
 /* Begin PBXFileReference section */
 		AA46AB342865EAED00CE0D07 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		AA572CAC286EB89D007E8E05 /* TypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeView.swift; sourceTree = "<group>"; };
+		AA572CAE286EB98F007E8E05 /* TypeStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeStackView.swift; sourceTree = "<group>"; };
+		AA572CB02871D6FD007E8E05 /* ResultCheckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultCheckView.swift; sourceTree = "<group>"; };
 		AA893CCF281662F200E393F4 /* TopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
 		AA893CD12816B91500E393F4 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		AA893CD32816BBA600E393F4 /* ChooseMbtiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseMbtiView.swift; sourceTree = "<group>"; };
@@ -75,6 +81,9 @@
 				AA893CD32816BBA600E393F4 /* ChooseMbtiView.swift */,
 				AA893CD52816BBE600E393F4 /* MenuView.swift */,
 				AA46AB342865EAED00CE0D07 /* WebView.swift */,
+				AA572CAC286EB89D007E8E05 /* TypeView.swift */,
+				AA572CAE286EB98F007E8E05 /* TypeStackView.swift */,
+				AA572CB02871D6FD007E8E05 /* ResultCheckView.swift */,
 			);
 			path = Moob;
 			sourceTree = "<group>";
@@ -166,12 +175,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA572CAF286EB98F007E8E05 /* TypeStackView.swift in Sources */,
 				AAD7E95227E89E9200AD1043 /* ContentView.swift in Sources */,
+				AA572CB12871D6FD007E8E05 /* ResultCheckView.swift in Sources */,
 				AA893CD62816BBE600E393F4 /* MenuView.swift in Sources */,
 				AA893CD22816B91500E393F4 /* MainView.swift in Sources */,
 				AA893CD0281662F200E393F4 /* TopView.swift in Sources */,
 				AAD7E95027E89E9200AD1043 /* MoobApp.swift in Sources */,
 				AA893CD42816BBA600E393F4 /* ChooseMbtiView.swift in Sources */,
+				AA572CAD286EB89D007E8E05 /* TypeView.swift in Sources */,
 				AA46AB352865EAED00CE0D07 /* WebView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
