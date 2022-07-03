@@ -28,7 +28,6 @@ struct ChooseMbtiView: View {
                         } else {
                             typeNum = typeNum - 1
                         }
-                        print(typeNum)
                     }){
                         Image("Moob_Front")
                             .resizable()
@@ -65,7 +64,6 @@ struct ChooseMbtiView: View {
                         } else {
                             typeNum = typeNum + 1
                         }
-                        print(typeNum)
                     }){
                         Image("Moob_Back")
                             .resizable()
