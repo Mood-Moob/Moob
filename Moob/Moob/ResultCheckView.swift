@@ -24,6 +24,18 @@ struct ResultCheckView: View {
                             .frame(width: 25, height: 25, alignment: .topTrailing)
                     }.padding(30)
                 }
+                VStack(alignment: .leading){
+                    HStack(){
+                        Text("INTJ").font(.custom("SigmarOne-Regular", size: 36))
+                            .foregroundColor(Color(red: 212/255, green: 214/255, blue: 255/255)).multilineTextAlignment(.leading)
+                        Spacer()
+                    }
+                    HStack{
+                        Text("용의주도한 전략가").font(.system(size: 20, weight: .thin, design: .default))
+                            .foregroundColor(Color(red: 125/255, green: 125/255, blue: 125/255)).multilineTextAlignment(.leading)
+                        Spacer()
+                    }
+                }.offset(x: 50, y: 0)
             }
         }
     }
