@@ -36,6 +36,9 @@ struct ResultCheckView: View {
                         Spacer()
                     }
                 }.offset(x: 50, y: 0)
+                HStack{
+                    Image("Moob_INTJ").resizable().frame(width: 200, height: 200, alignment: .center)
+                }.padding(62)
             }
         }
     }
