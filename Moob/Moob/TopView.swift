@@ -11,23 +11,15 @@ struct TopView: View {
     var descriptionText = ""
     
     var body: some View {
-        ZStack{
-            VStack(alignment: .leading){
-                HStack{
-                    Button(action: {print("Prev")}){
-                        Image("Moob_Prev").padding().hidden()
-                    }
-                    Spacer()
-                    Button(action: {print("Home")}){
-                        Image("Moob_Home").padding().hidden()
-                    }
-                }
-                VStack(alignment: .leading){
-                    Image("Moob_Logo")
-                    Text(descriptionText).font(.system(size: 20, weight: .thin, design: .default)).foregroundColor(Color(red: 125/255, green: 125/255, blue: 125/255))
-                }.padding().offset(x: 20, y: -110)
+        VStack(){
+            HStack{
+                Image("Moob_Logo")
                 Spacer()
-            }
+            }.padding(20)
+            HStack{
+                Text(descriptionText).font(.system(size: 20, weight: .thin, design: .default)).foregroundColor(Color(red: 125/255, green: 125/255, blue: 125/255))
+                Spacer()
+            }.padding(20).offset(x: 0, y: -40)
         }
     }
 }
