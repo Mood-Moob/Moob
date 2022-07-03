@@ -17,7 +17,7 @@ struct TopView: View {
                 Spacer()
             }.padding(20)
             HStack{
-                Text(descriptionText).font(.system(size: 20, weight: .thin, design: .default)).foregroundColor(Color(red: 125/255, green: 125/255, blue: 125/255))
+                Text(descriptionText).font(.custom("AppleSDGothicNeo-Thin", size: 20)).foregroundColor(Color(red: 125/255, green: 125/255, blue: 125/255))
                 Spacer()
             }.padding(20).offset(x: 0, y: -40)
         }

@@ -18,7 +18,8 @@ struct MenuView: View {
             VStack{
                 Image(image)
                 Text(descriptionText)
-                    .font(.system(size: 15, weight: .thin, design: .default)).foregroundColor(Color(red: 125/255, green: 125/255, blue: 125/255))
+                    .font(.custom("AppleSDGothicNeo-Thin", size: 15))
+                    .foregroundColor(Color(red: 125/255, green: 125/255, blue: 125/255))
             }
             
         }
