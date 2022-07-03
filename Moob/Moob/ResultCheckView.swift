@@ -50,7 +50,7 @@ struct ResultCheckView: View {
                         }
                     }.cornerRadius(20)
                         .shadow(color: Color.black.opacity(0.25), radius: 4, x: 4, y: 4)
-                        .frame(width: 309, height: 214, alignment: .center)
+                        .frame(width: 329, height: 224, alignment: .center)
                 }
             }.offset(x: 0, y: -90)
         }
