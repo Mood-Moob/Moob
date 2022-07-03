@@ -20,7 +20,7 @@ struct TypeView: View {
                 VStack{
                     Image(typeImage)
                     Text(typeName)
-                        .font(.system(size: 15, weight: .thin, design: .default)).foregroundColor(Color(red: 125/255, green: 125/255, blue: 125/255))
+                        .font(.custom("AppleSDGothicNeo-Thin", size: 15)).foregroundColor(Color(red: 125/255, green: 125/255, blue: 125/255))
                 }
                 
             }.cornerRadius(10)

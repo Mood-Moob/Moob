@@ -38,23 +38,23 @@ struct ChooseMbtiView: View {
                     switch typeNum{
                     case 1:
                         Text("분석가형")
-                            .font(.system(size: 20, weight: .bold, design: .default))
+                            .font(.custom("AppleSDGothicNeo-Bold", size: 20))
                             .foregroundColor(Color(red: 212/255, green: 214/255, blue: 255/255))
                     case 2:
                         Text("외교형")
-                            .font(.system(size: 20, weight: .bold, design: .default))
+                            .font(.custom("AppleSDGothicNeo-Bold", size: 20))
                             .foregroundColor(Color(red: 218/255, green: 255/255, blue: 201/255))
                     case 3:
                         Text("관리자형")
-                            .font(.system(size: 20, weight: .bold, design: .default))
+                            .font(.custom("AppleSDGothicNeo-Bold", size: 20))
                             .foregroundColor(Color(red: 204/255, green: 231/255, blue: 255/255))
                     case 4:
                         Text("탐험가형")
-                            .font(.system(size: 20, weight: .bold, design: .default))
+                            .font(.custom("AppleSDGothicNeo-Bold", size: 20))
                             .foregroundColor(Color(red: 255/255, green: 234/255, blue: 178/255))
                     default:
                         Text("분석가형")
-                            .font(.system(size: 20, weight: .bold, design: .default))
+                            .font(.custom("AppleSDGothicNeo-Bold", size: 20))
                             .foregroundColor(Color(red: 212/255, green: 214/255, blue: 255/255))
                     }
                     
