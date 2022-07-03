@@ -76,15 +76,195 @@ struct ChooseMbtiView: View {
                     Spacer()
                     switch typeNum{
                     case 1:
-                        TypeStackView(typeImage1: "Moob_INTJ", typeImage2: "Moob_INTP", typeImage3: "Moob_ENTJ", typeImage4: "Moob_ENTP", typeName1: "INTJ", typeName2: "INTP", typeName3: "ENTJ", typeName4: "ENTP", typeDetination1: ChooseMbtiView(), typeDetination2: ChooseMbtiView(), typeDetination3: ChooseMbtiView(), typeDetination4: ChooseMbtiView())
+                        TypeStackView(
+                            typeImage1: "Moob_INTJ",
+                            typeImage2: "Moob_INTP",
+                            typeImage3: "Moob_ENTJ",
+                            typeImage4: "Moob_ENTP",
+                            typeName1: "INTJ",
+                            typeName2: "INTP",
+                            typeName3: "ENTJ",
+                            typeName4: "ENTP",
+                            typeDetination1: ResultCheckView(
+                                mbti: "INTJ",
+                                mbtiColor: Color(red: 212/255, green: 214/255, blue: 255/255),
+                                mbtiKorean: "용의주도한 전략가",
+                                mbtiImage: "Moob_INTJ",
+                                mbtiJob: "투자 은행원\n재무 상담가\nSW 개발자",
+                                mbtiBack: Color(red: 240/255, green: 241/255, blue: 255/255)),
+                            typeDetination2: ResultCheckView(
+                                mbti: "INTP",
+                                mbtiColor: Color(red: 212/255, green: 214/255, blue: 255/255),
+                                mbtiKorean: "논리적인 사색가",
+                                mbtiImage: "Moob_INTP",
+                                mbtiJob: "프로그래머\n재무 분석가\n설계자\n교수",
+                                mbtiBack: Color(red: 240/255, green: 241/255, blue: 255/255)),
+                            typeDetination3: ResultCheckView(
+                                mbti: "ENTJ",
+                                mbtiColor: Color(red: 212/255, green: 214/255, blue: 255/255),
+                                mbtiKorean: "대담한 통솔자",
+                                mbtiImage: "Moob_ENTJ",
+                                mbtiJob: "임원\n변호사\n경영 컨설턴트\n분석 전문가",
+                                mbtiBack: Color(red: 240/255, green: 241/255, blue: 255/255)),
+                            typeDetination4: ResultCheckView(
+                                mbti: "ENTP",
+                                mbtiColor: Color(red: 212/255, green: 214/255, blue: 255/255),
+                                mbtiKorean: "뜨거운 논쟁을 즐기는 변론가",
+                                mbtiImage: "Moob_ENTP",
+                                mbtiJob: "기업가\n정치가\n부동산 전문가\n마케팅 디렉터",
+                                mbtiBack: Color(red: 240/255, green: 241/255, blue: 255/255)))
                     case 2:
-                        TypeStackView(typeImage1: "Moob_INFJ", typeImage2: "Moob_INFP", typeImage3: "Moob_ENFJ", typeImage4: "Moob_ENFP", typeName1: "INFJ", typeName2: "INFP", typeName3: "ENFJ", typeName4: "ENFP", typeDetination1: ChooseMbtiView(), typeDetination2: ChooseMbtiView(), typeDetination3: ChooseMbtiView(), typeDetination4: ChooseMbtiView())
+                        TypeStackView(
+                            typeImage1: "Moob_INFJ",
+                            typeImage2: "Moob_INFP",
+                            typeImage3: "Moob_ENFJ",
+                            typeImage4: "Moob_ENFP",
+                            typeName1: "INFJ",
+                            typeName2: "INFP",
+                            typeName3: "ENFJ",
+                            typeName4: "ENFP",
+                            typeDetination1: ResultCheckView(
+                                mbti: "INFJ",
+                                mbtiColor: Color(red: 218/255, green: 255/255, blue: 201/255),
+                                mbtiKorean: "선의의 옹호자",
+                                mbtiImage: "Moob_INFJ",
+                                mbtiJob: "치료사\n사회복지사\n고객관계매니저",
+                                mbtiBack: Color(red: 244/255, green: 255/255, blue: 239/255)),
+                            typeDetination2: ResultCheckView(
+                                mbti: "INFP",
+                                mbtiColor: Color(red: 218/255, green: 255/255, blue: 201/255),
+                                mbtiKorean: "열정적인 중재자",
+                                mbtiImage: "Moob_INFP",
+                                mbtiJob: "그래픽디자이너\n심리학자\n치료사\n작가\n편집자",
+                                mbtiBack: Color(red: 244/255, green: 255/255, blue: 239/255)),
+                            typeDetination3: ResultCheckView(
+                                mbti: "ENFJ",
+                                mbtiColor: Color(red: 218/255, green: 255/255, blue: 201/255),
+                                mbtiKorean: "정의로운 사회운동가",
+                                mbtiImage: "Moob_ENFJ",
+                                mbtiJob: "PR전문가\n세일즈 매니저\n고용/HR 전문가",
+                                mbtiBack: Color(red: 244/255, green: 255/255, blue: 239/255)),
+                            typeDetination4: ResultCheckView(
+                                mbti: "ENFP",
+                                mbtiColor: Color(red: 218/255, green: 255/255, blue: 201/255),
+                                mbtiKorean: "재기발랄한 활동가",
+                                mbtiImage: "Moob_ENFP",
+                                mbtiJob: "저널리스트\n요식업 경영자\n파티플래너",
+                                mbtiBack: Color(red: 244/255, green: 255/255, blue: 239/255)))
                     case 3:
-                        TypeStackView(typeImage1: "Moob_ISTJ", typeImage2: "Moob_ISFJ", typeImage3: "Moob_ESTJ", typeImage4: "Moob_ESFJ", typeName1: "ISTJ", typeName2: "ISFJ", typeName3: "ESTJ", typeName4: "ESFJ", typeDetination1: ChooseMbtiView(), typeDetination2: ChooseMbtiView(), typeDetination3: ChooseMbtiView(), typeDetination4: ChooseMbtiView())
+                        TypeStackView(
+                            typeImage1: "Moob_ISTJ",
+                            typeImage2: "Moob_ISFJ",
+                            typeImage3: "Moob_ESTJ",
+                            typeImage4: "Moob_ESFJ",
+                            typeName1: "ISTJ",
+                            typeName2: "ISFJ",
+                            typeName3: "ESTJ",
+                            typeName4: "ESFJ",
+                            typeDetination1: ResultCheckView(
+                                mbti: "ISTJ",
+                                mbtiColor: Color(red: 204/255, green: 231/255, blue: 255/255),
+                                mbtiKorean: "청렴결백한 논리주의자",
+                                mbtiImage: "Moob_ISTJ",
+                                mbtiJob: "감리사\n회계사\n재무 경영자\n웹 개발자",
+                                mbtiBack: Color(red: 242/255, green: 249/255, blue: 255/255)),
+                            typeDetination2: ResultCheckView(
+                                mbti: "ISFJ",
+                                mbtiColor: Color(red: 204/255, green: 231/255, blue: 255/255),
+                                mbtiKorean: "용감한 수호자",
+                                mbtiImage: "Moob_ISFJ",
+                                mbtiJob: "치과의사\n사서\n초등학교 교가\n창업가",
+                                mbtiBack: Color(red: 242/255, green: 249/255, blue: 255/255)),
+                            typeDetination3: ResultCheckView(
+                                mbti: "ESTJ",
+                                mbtiColor: Color(red: 204/255, green: 231/255, blue: 255/255),
+                                mbtiKorean: "엄격한 관리자",
+                                mbtiImage: "Moob_ESTJ",
+                                mbtiJob: "보험 세일즈맨\n약사\n변호사\n프로젝트 매니저",
+                                mbtiBack: Color(red: 242/255, green: 249/255, blue: 255/255)),
+                            typeDetination4: ResultCheckView(
+                                mbti: "ESFJ",
+                                mbtiColor: Color(red: 204/255, green: 231/255, blue: 255/255),
+                                mbtiKorean: "사교적인 외교관",
+                                mbtiImage: "Moob_ESFJ",
+                                mbtiJob: "판매 대표자\n간호사\n헬스케어 종사자",
+                                mbtiBack: Color(red: 242/255, green: 249/255, blue: 255/255)))
                     case 4:
-                        TypeStackView(typeImage1: "Moob_ISTP", typeImage2: "Moob_ISFP", typeImage3: "Moob_ESTP", typeImage4: "Moob_ESFP", typeName1: "ISTP", typeName2: "ISFP", typeName3: "ESTP", typeName4: "ESFP", typeDetination1: ChooseMbtiView(), typeDetination2: ChooseMbtiView(), typeDetination3: ChooseMbtiView(), typeDetination4: ChooseMbtiView())
+                        TypeStackView(
+                            typeImage1: "Moob_ISTP",
+                            typeImage2: "Moob_ISFP",
+                            typeImage3: "Moob_ESTP",
+                            typeImage4: "Moob_ESFP",
+                            typeName1: "ISTP",
+                            typeName2: "ISFP",
+                            typeName3: "ESTP",
+                            typeName4: "ESFP",
+                            typeDetination1: ResultCheckView(
+                                mbti: "ISTP",
+                                mbtiColor: Color(red: 255/255, green: 234/255, blue: 178/255),
+                                mbtiKorean: "만능재주꾼",
+                                mbtiImage: "Moob_ISTP",
+                                mbtiJob: "토목기사\n파일럿\n경제학자\n데이터 분석가",
+                                mbtiBack: Color(red: 255/255, green: 243/255, blue: 212/255)),
+                            typeDetination2: ResultCheckView(
+                                mbti: "ISFP",
+                                mbtiColor: Color(red: 255/255, green: 234/255, blue: 178/255),
+                                mbtiKorean: "호기심 많은 예술가",
+                                mbtiImage: "Moob_ISFP",
+                                mbtiJob: "패션디자이너\n물리치료사\n조경설계자",
+                                mbtiBack: Color(red: 255/255, green: 243/255, blue: 212/255)),
+                            typeDetination3: ResultCheckView(
+                                mbti: "ESTP",
+                                mbtiColor: Color(red: 255/255, green: 234/255, blue: 178/255),
+                                mbtiKorean: "모험을 즐기는 사업가",
+                                mbtiImage: "Moob_ESTP",
+                                mbtiJob: "탐정\n은행원\n투자가\n스포츠 코치",
+                                mbtiBack: Color(red: 255/255, green: 243/255, blue: 212/255)),
+                            typeDetination4: ResultCheckView(
+                                mbti: "ESFP",
+                                mbtiColor: Color(red: 255/255, green: 234/255, blue: 178/255),
+                                mbtiKorean: "자유로운 영혼의 연예인",
+                                mbtiImage: "Moob_ESFP",
+                                mbtiJob: "아동 복지 상담가\n배우\n디자이너\n환경 과학자",
+                                mbtiBack: Color(red: 255/255, green: 243/255, blue: 212/255)))
                     default:
-                        TypeStackView(typeImage1: "Moob_INTJ", typeImage2: "Moob_INTP", typeImage3: "Moob_ENTJ", typeImage4: "Moob_ENTP", typeName1: "INTJ", typeName2: "INTP", typeName3: "ENTJ", typeName4: "ENTP", typeDetination1: ChooseMbtiView(), typeDetination2: ChooseMbtiView(), typeDetination3: ChooseMbtiView(), typeDetination4: ChooseMbtiView())
+                        TypeStackView(
+                            typeImage1: "Moob_INTJ",
+                            typeImage2: "Moob_INTP",
+                            typeImage3: "Moob_ENTJ",
+                            typeImage4: "Moob_ENTP",
+                            typeName1: "INTJ",
+                            typeName2: "INTP",
+                            typeName3: "ENTJ",
+                            typeName4: "ENTP",
+                            typeDetination1: ResultCheckView(
+                                mbti: "INTJ",
+                                mbtiColor: Color(red: 212/255, green: 214/255, blue: 255/255),
+                                mbtiKorean: "용의주도한 전략가",
+                                mbtiImage: "Moob_INTJ",
+                                mbtiJob: "투자 은행원\n재무 상담가\nSW 개발자",
+                                mbtiBack: Color(red: 240/255, green: 241/255, blue: 255/255)),
+                            typeDetination2: ResultCheckView(
+                                mbti: "INTP",
+                                mbtiColor: Color(red: 212/255, green: 214/255, blue: 255/255),
+                                mbtiKorean: "논리적인 사색가",
+                                mbtiImage: "Moob_INTP",
+                                mbtiJob: "프로그래머\n재무 분석가\n설계자\n교수",
+                                mbtiBack: Color(red: 240/255, green: 241/255, blue: 255/255)),
+                            typeDetination3: ResultCheckView(
+                                mbti: "ENTJ",
+                                mbtiColor: Color(red: 212/255, green: 214/255, blue: 255/255),
+                                mbtiKorean: "대담한 통솔자",
+                                mbtiImage: "Moob_ENTJ",
+                                mbtiJob: "임원\n변호사\n경영 컨설턴트\n분석 전문가",
+                                mbtiBack: Color(red: 240/255, green: 241/255, blue: 255/255)),
+                            typeDetination4: ResultCheckView(
+                                mbti: "ENTP",
+                                mbtiColor: Color(red: 212/255, green: 214/255, blue: 255/255),
+                                mbtiKorean: "뜨거운 논쟁을 즐기는 변론가",
+                                mbtiImage: "Moob_ENTP",
+                                mbtiJob: "기업가\n정치가\n부동산 전문가\n마케팅 디렉터",
+                                mbtiBack: Color(red: 240/255, green: 241/255, blue: 255/255)))
                     }
                     
                     Spacer()
