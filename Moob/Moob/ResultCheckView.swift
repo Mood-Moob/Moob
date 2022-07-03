@@ -8,6 +8,13 @@
 import SwiftUI
 
 struct ResultCheckView: View {
+    var mbti = ""
+    var mbtiColor = Color(red: 1, green: 1, blue: 1)
+    var mbtiKorean = ""
+    var mbtiImage = ""
+    var mbtiJob = ""
+    var mbtiBack = Color(red: 1, green: 1, blue: 1)
+    
     var body: some View {
         NavigationView{
             VStack{
@@ -15,7 +22,7 @@ struct ResultCheckView: View {
                     NavigationLink(destination: ChooseMbtiView().navigationBarHidden(true)){
                         Image("Moob_Prev")
                             .resizable()
-                            .frame(width: 12, height: 20, alignment: .topTrailing)
+                            .frame(width: 12, height: 20, alignment: .topLeading)
                     }.padding(30)
                     Spacer()
                     NavigationLink(destination: MainView().navigationBarHidden(true)){
@@ -26,25 +33,25 @@ struct ResultCheckView: View {
                 }
                 VStack(alignment: .leading){
                     HStack(){
-                        Text("INTJ").font(.custom("SigmarOne-Regular", size: 36))
-                            .foregroundColor(Color(red: 212/255, green: 214/255, blue: 255/255)).multilineTextAlignment(.leading)
+                        Text(mbti).font(.custom("SigmarOne-Regular", size: 36))
+                            .foregroundColor(mbtiColor).multilineTextAlignment(.leading)
                         Spacer()
                     }
                     HStack{
-                        Text("용의주도한 전략가")
+                        Text(mbtiKorean)
                             .font(.custom("AppleSDGothicNeo-Thin", size: 20))
                             .foregroundColor(Color(red: 125/255, green: 125/255, blue: 125/255)).multilineTextAlignment(.leading)
                         Spacer()
                     }
                 }.offset(x: 50, y: 0)
                 HStack{
-                    Image("Moob_INTJ").resizable().frame(width: 200, height: 200, alignment: .center)
+                    Image(mbtiImage).resizable().frame(width: 200, height: 200, alignment: .center)
                 }.padding(62)
                 HStack{
                     ZStack{
-                        Color(red: 240/255, green: 241/255, blue: 255/255)
+                        mbtiBack
                         HStack{
-                            Text("투자 은행원\n재무 상담가\nSW 개발자").font(.custom("AppleSDGothicNeo-Thin", size: 20))
+                            Text(mbtiJob).font(.custom("AppleSDGothicNeo-Thin", size: 20))
                                 .lineSpacing(3)
                                 .multilineTextAlignment(.center)
                         }
