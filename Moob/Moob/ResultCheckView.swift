@@ -31,7 +31,8 @@ struct ResultCheckView: View {
                         Spacer()
                     }
                     HStack{
-                        Text("용의주도한 전략가").font(.system(size: 20, weight: .thin, design: .default))
+                        Text("용의주도한 전략가")
+                            .font(.custom("AppleSDGothicNeo-Thin", size: 20))
                             .foregroundColor(Color(red: 125/255, green: 125/255, blue: 125/255)).multilineTextAlignment(.leading)
                         Spacer()
                     }
@@ -39,7 +40,19 @@ struct ResultCheckView: View {
                 HStack{
                     Image("Moob_INTJ").resizable().frame(width: 200, height: 200, alignment: .center)
                 }.padding(62)
-            }
+                HStack{
+                    ZStack{
+                        Color(red: 240/255, green: 241/255, blue: 255/255)
+                        HStack{
+                            Text("투자 은행원\n재무 상담가\nSW 개발자").font(.custom("AppleSDGothicNeo-Thin", size: 20))
+                                .lineSpacing(3)
+                                .multilineTextAlignment(.center)
+                        }
+                    }.cornerRadius(20)
+                        .shadow(color: Color.black.opacity(0.25), radius: 4, x: 4, y: 4)
+                        .frame(width: 309, height: 214, alignment: .center)
+                }
+            }.offset(x: 0, y: -90)
         }
     }
 }
