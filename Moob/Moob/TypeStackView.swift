@@ -16,10 +16,10 @@ struct TypeStackView: View {
     var typeName2 = ""
     var typeName3 = ""
     var typeName4 = ""
-    var typeDetination1 = ChooseMbtiView()
-    var typeDetination2 = ChooseMbtiView()
-    var typeDetination3 = ChooseMbtiView()
-    var typeDetination4 = ChooseMbtiView()
+    var typeDetination1 = ResultCheckView(mbti: "", mbtiColor: Color.white, mbtiKorean: "", mbtiImage: "", mbtiJob: "", mbtiBack: Color.white)
+    var typeDetination2 = ResultCheckView(mbti: "", mbtiColor: Color.white, mbtiKorean: "", mbtiImage: "", mbtiJob: "", mbtiBack: Color.white)
+    var typeDetination3 = ResultCheckView(mbti: "", mbtiColor: Color.white, mbtiKorean: "", mbtiImage: "", mbtiJob: "", mbtiBack: Color.white)
+    var typeDetination4 = ResultCheckView(mbti: "", mbtiColor: Color.white, mbtiKorean: "", mbtiImage: "", mbtiJob: "", mbtiBack: Color.white)
     
     var body: some View {
         VStack{

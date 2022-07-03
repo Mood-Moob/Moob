@@ -10,10 +10,10 @@ import SwiftUI
 struct TypeView: View {
     var typeImage = ""
     var typeName = ""
-    var typeDestination = ChooseMbtiView()
+    var typeDestination = ResultCheckView(mbti: "", mbtiColor: Color.white, mbtiKorean: "", mbtiImage: "", mbtiJob: "", mbtiBack: Color.white)
     
     var body: some View {
-        NavigationLink(destination: typeDestination){
+        NavigationLink(destination: typeDestination.navigationBarHidden(true)){
             ZStack{
                 Color.white.frame(width: 140, height: 160, alignment: .center)
                 
