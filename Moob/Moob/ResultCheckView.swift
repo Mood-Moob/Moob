@@ -22,13 +22,13 @@ struct ResultCheckView: View {
                     NavigationLink(destination: ChooseMbtiView().navigationBarHidden(true)){
                         Image("Moob_Prev")
                             .resizable()
-                            .frame(width: 12, height: 20, alignment: .topLeading)
+                            .frame(width: 12, height: 20, alignment: .center)
                     }.padding(30)
                     Spacer()
                     NavigationLink(destination: MainView().navigationBarHidden(true)){
                         Image("Moob_Home")
                             .resizable()
-                            .frame(width: 25, height: 25, alignment: .topTrailing)
+                            .frame(width: 25, height: 25, alignment: .center)
                     }.padding(30)
                 }
                 VStack(alignment: .leading){
@@ -43,10 +43,10 @@ struct ResultCheckView: View {
                             .foregroundColor(Color(red: 125/255, green: 125/255, blue: 125/255)).multilineTextAlignment(.leading)
                         Spacer()
                     }
-                }.offset(x: 50, y: 0)
+                }.offset(x: 50, y: -20)
                 HStack{
                     Image(mbtiImage).resizable().frame(width: 200, height: 200, alignment: .center)
-                }.padding(62)
+                }
                 HStack{
                     ZStack{
                         mbtiBack
@@ -58,8 +58,8 @@ struct ResultCheckView: View {
                     }.cornerRadius(20)
                         .shadow(color: Color.black.opacity(0.25), radius: 4, x: 4, y: 4)
                         .frame(width: 329, height: 224, alignment: .center)
-                }
-            }.offset(x: 0, y: -90)
+                }.offset(x: 0, y: 60)
+            }.offset(x: 0, y: -80)
         }
     }
 }
