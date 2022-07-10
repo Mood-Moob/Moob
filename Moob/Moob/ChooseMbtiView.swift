@@ -12,15 +12,17 @@ struct ChooseMbtiView: View {
     var body: some View {
         NavigationView{
             VStack(alignment:.leading){
-                HStack(alignment:.top){
-                    Spacer()
-                    NavigationLink(destination: MainView().navigationBarHidden(true)){
-                        Image("Moob_Home")
-                            .resizable()
-                            .frame(width: 25, height: 25, alignment: .topTrailing)
-                    }.padding(30)
+                ZStack{
+                    HStack(alignment:.top){
+                        Spacer()
+                        NavigationLink(destination: MainView().navigationBarHidden(true)){
+                            Image("Moob_Home")
+                                .resizable()
+                                .frame(width: 25, height: 25, alignment: .topTrailing)
+                        }.padding(30).offset(x: 0, y: -100)
+                    }
+                    TopView(descriptionText: "Choose your MBTI.").padding(40)
                 }
-                TopView(descriptionText: "Choose your MBTI.").padding(40).offset(x: 0, y: -50)
                 HStack(){
                     Button(action:{
                         if typeNum == 1 {
