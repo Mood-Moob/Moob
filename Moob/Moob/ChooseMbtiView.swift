@@ -173,7 +173,7 @@ struct ChooseMbtiView: View {
                                 mbtiColor: Color(red: 204/255, green: 231/255, blue: 255/255),
                                 mbtiKorean: "수호자",
                                 mbtiImage: "Moob_ISFJ",
-                                mbtiJob: "치과의사\n사서\n초등학교 교가\n창업가",
+                                mbtiJob: "치과의사\n사서\n초등학교 교사\n창업가",
                                 mbtiBack: Color(red: 242/255, green: 249/255, blue: 255/255)),
                             typeDetination3: ResultCheckView(
                                 mbti: "ESTJ",
