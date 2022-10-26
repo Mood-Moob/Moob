@@ -11,7 +11,7 @@ struct MainView: View {
     var body: some View {
         NavigationView{
             VStack{
-                TopView(descriptionText: "Choose one and try it.").padding(40).offset(x: 0, y: -50)
+                TopView(descriptionText: "Choose one and try it.").padding(40).offset(x: 0, y: 0)
                 Spacer()
                 VStack{
                     NavigationLink(destination: ChooseMbtiView().navigationBarHidden(true)){
